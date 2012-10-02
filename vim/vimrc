@@ -1,0 +1,153 @@
+"""""""""""""""""
+" Compatibility " 
+"""""""""""""""""
+set nocompatible
+
+
+""""""""""""""""""""""""""""""""""""""
+" Turn on filetype plugin and indent "
+""""""""""""""""""""""""""""""""""""""
+filetype plugin on
+filetype indent on
+
+
+""""""""""""""""
+" General sets "
+""""""""""""""""
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=1
+set modeline
+set incsearch "Increment search
+set showmatch "Show match
+set smarttab "Be smart when using tabs
+set expandtab "Use space instead tabs
+" 1 tab = 4 spaces
+set tabstop=4 
+set shiftwidth=4
+set noic
+set number
+set ruler
+set showcmd
+set history=50
+set ai "Auto indent
+set si "Smart indent
+set wrap "Wrap lines
+set wildmenu "Wild menù on
+set wildignore=*.o,*.~,*.pyc "ignore compiled files
+set ruler "show current position
+set ignorecase "ignore case when serching
+set hlsearch "highlight search
+syntax enable "enable syntax highlighting
+autocmd BufNewFile,BufRead *.py set expandtab ts=4 sts=4 sw=4 tw=79 cc=80
+if exists('+colorcolumn')
+    set colorcolumn=80
+else
+    au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
+set cursorline
+set cursorcolumn
+
+""""""""""""""""""""""""""""""""""""
+" PYdiction complete-dict location "
+""""""""""""""""""""""""""""""""""""
+let g:pydiction_location="/home/alex/.vim/after/ftplugin/pydiction/complete-dict"
+
+
+""""""""""""""""""""""""""""""""""""""""""
+" Cursorline & columnline stile and sets "
+""""""""""""""""""""""""""""""""""""""""""
+hi CursorLine   cterm=NONE ctermbg=LightGray ctermfg=DarkBlue guibg=LightGray guifg=DarkBlue
+hi CursorColumn cterm=NONE ctermbg=LightGray ctermfg=DarkBlue guibg=LightGray guifg=DarkBlue
+
+
+"""""""""""""""""""
+" Statusline hack "
+"""""""""""""""""""
+set laststatus=2
+set statusline=                                                  " clear old statusline
+set statusline+=%{virtualenv#statusline()}\                      " virtualenv status
+set statusline+=%{fugitive#statusline()}\                        " git status
+set statusline+=%-3.3n\                                         
+set statusline+=%f\                                              " file name
+set statusline+=%h%m%r%w                                         " flags
+set statusline+=[%{strlen(&ft)?&ft:'none'},                      " filetype
+set statusline+=%{strlen(&fenc)?&fenc:&enc},                     " encoding
+set statusline+=%{&fileformat}]                                  " fileformat
+set statusline+=%=                                               " right align
+set statusline+=%{synIDattr(synID(line('.'),col('.'),1),'name')} "highlight
+set statusline+=%b,0x%-8B\                                       "current char
+set statusline+=%-14.(%l,%c%V%)\ %<%P                            " o
+
+
+"""""""""""""""""""""""""""""
+" Mapping Keys and commands "
+"""""""""""""""""""""""""""""
+nnoremap <silent> <C-m> :TlistToggle<CR>
+nnoremap <silent> <C-l> :NERDTreeToggle<CR>
+nnoremap <silent> <Leader>ml :call AppendModeline()<CR>
+map <leader>tn :tabnew<CR>
+map <leader>to :tabonly<CR>
+map <leader>tc :tabclose<CR>
+map <leader>tm :tabmove<CR>
+
+"""""""""""""
+" Functions "
+"""""""""""""
+" Append modeline after last line in buffer.
+" Use substitute() instead of printf() to handle '%%s' modeline in LaTeX
+" files.
+function! AppendModeline()
+  let l:modeline = printf(" vim: set ts=%d sw=%d tw=%d :",
+        \ &tabstop, &shiftwidth, &textwidth)
+  let l:modeline = substitute(&commentstring, "%s", l:modeline, "")
+  call append(line("$"), l:modeline)
+endfunction
+
+
+"Gist settings"
+let g:gist_detect_type = 1
+let g:gist_open_browser_after_post = 1
+let g:gist_browser_command='firefox %URL%&'
+
+
+" ropevim settings "
+let ropevim_vim_completion=1
+let ropevim_extended_complete=1
+let ropevim_guess_project=1
+
+"""""""""""
+" TABLINE "
+"""""""""""
+if exists("+showtabline")
+    function MyTabLine()
+        let s = ''
+        let t = tabpagenr()
+        let i = 1
+
+        while i <= tabpagenr('$')
+            let buflist = tabpagebuflist(i)
+            let winnr = tabpagewinnr(i)
+            let s .= (i == t ? '%1*' : '%2*')
+            "let s .= ' '
+            let s .= ' %*'
+            let s .= (i == t ? '%#TabLineSel#' : '%#TabLine#')
+            let s .= i . '-'
+            let file = bufname(buflist[winnr - 1])
+            let file = fnamemodify(file, ':p:t')
+            if file == ''
+                let file = '[No name]'
+            endif
+            let s .= file . ' '
+            let s .= (tabpagewinnr(i, '$') == 1 ? '' : '[' . tabpagewinnr(i, '$') . ']' . ' ')
+            let i = i + 1
+        endwhile
+        let s .= '%T%#TabLineFill#%='
+        let s .= (tabpagenr('$') > 1 ? '%999XX' : 'X')
+        return s
+    endfunction
+    set stal=2
+    set tabline=%!MyTabLine()
+endif
+" vim: set ts=4 sw=4 tw=80 :

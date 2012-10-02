@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/alex/Github/ERPthon/erpthon'
+let g:netrw_dirhist_2='/home/alex/Github/ERPthon/erpthon/db'
+let g:netrw_dirhist_3='/home/alex/Github/ERPthon/erpthon'
+let g:netrw_dirhist_4='/home/alex/Github/ERPthon/erpthon/config'
+let g:netrw_dirhist_5='/home/alex'
+let g:netrw_dirhist_6='/home/alex/lua-5.2.1/src'
+let g:netrw_dirhist_7='/home/alex/lua-5.2.1'
+let g:netrw_dirhist_8='/home/alex'

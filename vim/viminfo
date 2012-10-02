@@ -1,0 +1,1230 @@
+# Questo file viminfo è stato generato da Vim 7.3.
+# File modificabile, attento a quel che fai!
+
+# Valore di 'encoding' al momento della scrittura di questo file
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Ult. Espressione di Ricerca:
+~Msle0~/\<LANG\>
+
+# Ult. Sostituzione Espressione di Ricerca:
+~MSle0&lla
+
+# Ultima Stringa Sostituzione:
+$
+
+# Linea di Comando Storia (da più recente a meno recente):
+:q
+:wq
+:w
+:Q
+:Gist -a
+:help gist_vim_setup
+:Gist -la
+:CPPaste
+:CPRun
+:Explore
+:RopeAnalyzeModules
+:RopeFindFile utils.py
+:q!
+:cp
+:cn
+:cd Github/ERPthon/
+:qa
+:IPythonInterrupt
+:VirtualEnvDeactivate
+:VimballList
+:147l
+:IPython --existing kernel-3625.json
+:o .bashrc
+:o .vimrc
+:cd $HOME
+:IPython --existing kernel-2901.json
+:IP
+:IPython3 --existing kernel-2901.json
+:c
+:IPython
+:IPython --existing kernel-24775.json
+:VirtualEnvActivate erp
+:!ls
+:help tabpagenr()
+:help %
+:help %999XX
+:tabp
+:help tabpagebuflist()
+:Qa
+:gt
+:tabm 0
+:tabmove
+:tabs
+:O .VIMRC
+:help foldenable
+:zc
+:set foldmethod=manual
+:help folding
+:help :fold
+:cd snippets/
+
+# Stringa di Ricerca Storia (da più recente a meno recente):
+? \<LANG\>
+? \<vim\>
+??SET
+?/Redis
+? \<tutor\>
+?/statusli
+? \<except\>
+? \<redis\>
+? \<from\>
+??get_redis
+? \<run\>
+?/run
+
+# Espressione Storia (da più recente a meno recente):
+
+# Linea di Input Storia (da più recente a meno recente):
+@.erpthon
+@.
+@/home/alex/Github/ERPthon/
+@.ropeproject
+@Github/ERPthon/erpthon/
+@Github/ERPthon/
+@GitHub/ERPthon
+@Github/ERPthon/erpthon
+@cont
+@exit
+@help
+@self.type
+
+# Linea di Input Storia (da più recente a meno recente):
+
+# Registri:
+""0	CHAR	0
+	0
+"1	LINE	0
+	
+"2	LINE	0
+	
+"3	LINE	0
+	
+"4	LINE	0
+	
+"5	LINE	0
+	###### ANDROID TOOLS PATH ######
+"6	LINE	0
+	
+"7	LINE	0
+	        self.cmd[0].upper()
+"8	LINE	0
+	
+"9	CHAR	0
+	for k, v in COMMANDS.items():
+	            if self.cmd[0].upper() in v:
+	                self.data_type = k
+	            else:
+	                self.data_type = ''
+"-	CHAR	0
+	6906
+<<div style="width: 267px;" class="market_watch closed"><div class="watch_header linear_layout horizontal"><div style="width: 99px;" class="title layout_item"><a target="_blank" href="http://fxpro.ctrader.com/mw?s=EURUSD&amp;lang=uk">FxPro cTrader</a></div><div class="symbol layout_item"><span>GBPUSD</span><div class="dropdown_icon"></div><div class="join"></div><div class="symbols_popup"><div class="filtered_scroll_list"><div class="search"><div class="search_icon"></div><div style="display: none;" class="clear_icon"></div><input maxlength="6" size="6" type="text"></div><div class="scroll_list"><div style="margin-right: 0px; max-height: 198px;" class="scrollable itemListContainer"><ul class="itemList"><li>EURUSD</li><li>GBPUSD</li><li>EURJPY</li><li>USDJPY</li><li>AUDUSD</li><li>USDCHF</li><li>GBPJPY</li><li>USDCAD</li><li>EURGBP</li><li>EURCHF</li><li>AUDJPY</li><li>NZDUSD</li><li>CHFJPY</li><li>EURAUD</li><li>CADJPY</li><li>GBPAUD</li><li>EURCAD</li><li>AUDCAD</li><li>USDSGD</li><li>GBPCHF</li><li>XAUUSD</li><li>XAGUSD</li><li>USDTRY</li><li>EURTRY</li><li>AUDCHF</li><li>EURNOK</li><li>GBPCAD</li><li>GBPNOK</li><li>GBPNZD</li><li>GBPSGD</li><li>NZDCAD</li><li>NZDCHF</li><li>NZDJPY</li><li>USDMXN</li><li>USDNOK</li><li>USDPLN</li><li>USDSEK</li><li>EURHKD</li><li>EURZAR</li><li>SGDJPY</li><li>USDHKD</li><li>USDZAR</li><li>AUDNZD</li><li>CADCHF</li><li>EURDKK</li><li>EURHUF</li><li>EURMXN</li><li>EURNZD</li><li>EURPLN</li><li>EURSEK</li><li>GBPZAR</li><li>NZDSGD</li><li>USDDKK</li><li>USDHUF</li><li>EURCZK</li><li>USDCZK</li></ul></div><div style="width: 7px; height: 100%; display: none;" class="scroll_bar scroll_right"><div class="up_arrow"></div><div class="down_arrow"></div><div style="height: 32px; top: 12px;" class="bar"></div></div></div></div></div></div><div style="width: 100px;" class="time_title layout_item">25/08/2012, 8:13</div></div><div style="height: 242px;" class="watch_content"><div class="row first_row linear_layout horizontal"><div style="width: 126px;" class="label left_col layout_item">L: 1.58025</div><div style="width: 126px;" class="label layout_item">H: 1.58695</div></div><div class="row buttonrow"><div style="width: 69px;" class="sell_label"><span>Bid</span><div class="arrow_icon"></div><div class="fill_gap"><div class="fill_gap_negative"></div></div><div style="width: 126px;" class="sell_value"><div>1.58<span class="big">10</span>1</div></div></div><div style="width: 99px;" class="middle_col label spread">S: 1.7</div><div style="width: 69px;" class="buy_label"><span>Ask</span><div class="arrow_icon"></div><div class="fill_gap"><div class="fill_gap_negative"></div></div><div style="width: 126px;" class="buy_value"><div>1.58<span class="big">11</span>8</div></div></div></div><div class="row depthRow linear_layout horizontal"><div style="width: 120px; height: 149px;" class="left_col depth_list layout_item"><div class="marketMsg">Market closed</div><div class="scroll_list"><div style="margin-left: 0px; max-height: 149px;" class="scrollable itemListContainer"><ul class="itemList disabled"><li><span class="left volume">0.25m</span><span class="right price">1.58101</span></li><li><span class="left volume">0.25m</span><span class="right price">1.58099</span></li><li><span class="left volume">1m</span><span class="right price">1.58093</span></li><li><span class="left volume">0.5m</span><span class="right price">1.58081</span></li><li><span class="left volume">0.25m</span><span class="right price">1.58080</span></li><li><span class="left volume">0.5m</span><span class="right price">1.58078</span></li><li><span class="left volume">0.25m</span><span class="right price">1.58073</span></li><li><span class="left volume">1m</span><span class="right price">1.58071</span></li><li><span class="left volume">4m</span><span class="right price">1.58070</span></li><li><span class="left volume">2m</span><span class="right price">1.58066</span></li><li><span class="left volume">2m</span><span class="right price">1.58063</span></li><li><span class="left volume">1.5m</span><span class="right price">1.58053</span></li><li><span class="left volume">1m</span><span class="right price">1.58051</span></li><li><span class="left volume">1m</span><span class="right price">1.58041</span></li><li><span class="left volume">0.5m</span><span class="right price">1.58033</span></li><li><span class="left volume">0.5m</span><span class="right price">1.58027</span></li><li><span class="left volume">20m</span><span class="right price">1.58017</span></li><li><span class="left volume">0.5m</span><span class="right price">1.58003</span></li></ul></div><div style="width: 7px; height: 100%; display: none;" class="scroll_bar scroll_left"><div class="up_arrow"></div><div class="down_arrow"></div><div class="bar"></div></div></div></div><div style="width: 120px; height: 149px;" class="right_col depth_list layout_item"><div class="marketMsg">Market closed</div><div class="scroll_list"><div style="margin-right: 0px; max-height: 149px;" class="scrollable itemListContainer"><ul class="itemList disabled"><li><span class="left price">1.58118</span><span class="right volume">0.25m</span></li><li><span class="left price">1.58122</span><span class="right volume">0.25m</span></li><li><span class="left price">1.58124</span><span class="right volume">4m</span></li><li><span class="left price">1.58125</span><span class="right volume">1m</span></li><li><span class="left price">1.58129</span><span class="right volume">2m</span></li><li><span class="left price">1.58141</span><span class="right volume">0.5m</span></li><li><span class="left price">1.58147</span><span class="right volume">0.25m</span></li><li><span class="left price">1.58154</span><span class="right volume">0.25m</span></li><li><span class="left price">1.58165</span><span class="right volume">1.5m</span></li><li><span class="left price">1.58177</span><span class="right volume">20m</span></li><li><span class="left price">1.58179</span><span class="right volume">0.5m</span></li><li><span class="left price">1.58185</span><span class="right volume">0.5m</span></li><li><span class="left price">1.58202</span><span class="right volume">1m</span></li><li><span class="left price">1.58209</span><span class="right volume">0.5m</span></li><li><span class="left price">1.58221</span><span class="right volume">1m</span></li><li><span class="left price">1.58231</span><span class="right volume">1m</span></li><li><span class="left price">1.58404</span><span class="right volume">0.5m</span></li><li><span class="left price">1.58419</span><span class="right volume">0.5m</span></li><li><span class="left price">1.58429</span><span class="right volume">1.5m</span></li></ul></div><div style="width: 7px; height: 100%; display: none;" class="scroll_bar scroll_right"><div class="up_arrow"></div><div class="down_arrow"></div><div class="bar"></div></div></div></div>/div></div></div>
+
+# File mark:
+'0  40  0  ~/Downloads/nginx-1.2.4/contrib/geo2nginx.pl
+'1  75  0  ~/Downloads/libssh-0.5.2/src/socket.c
+'2  33  0  ~/Downloads/libssh-0.5.2/include/libssh/ssh2.h
+'3  177  0  ~/Documents/rfc/2223.txt
+'4  3  22  ~/sedprova.txt
+'5  6  0  ~/sedprova.txt
+'6  1  0  ~/.vim/README.mkd
+'7  41  0  ~/newlua/include/lua.h
+'8  112  42  ~/.vimrc
+'9  13  23  ~/LuaSDK/workspace/ssh/src/main.lua
+
+# Jumplist (dai più recenti):
+-'  40  0  ~/Downloads/nginx-1.2.4/contrib/geo2nginx.pl
+-'  1  0  ~/Downloads/nginx-1.2.4/contrib/geo2nginx.pl
+-'  75  0  ~/Downloads/libssh-0.5.2/src/socket.c
+-'  61  1  ~/Downloads/libssh-0.5.2/src/socket.c
+-'  33  0  ~/Downloads/libssh-0.5.2/include/libssh/ssh2.h
+-'  52  0  ~/Downloads/libssh-0.5.2/include/libssh/ssh2.h
+-'  177  0  ~/Documents/rfc/2223.txt
+-'  1  0  ~/Documents/rfc/2223.txt
+-'  3  22  ~/sedprova.txt
+-'  1  0  ~/sedprova.txt
+-'  6  0  ~/sedprova.txt
+-'  5  10  ~/sedprova.txt
+-'  4  2  ~/LuaSDK/workspace/ssh/src/main.lua
+-'  1  0  ~/LuaSDK/workspace/ssh/src/main.lua
+-'  1  0  ~/.vim/README.mkd
+-'  41  0  ~/newlua/include/lua.h
+-'  1  0  ~/newlua/include/lua.h
+-'  112  42  ~/.vimrc
+-'  136  12  ~/.vimrc
+-'  13  23  ~/LuaSDK/workspace/ssh/src/main.lua
+-'  14  0  ~/LuaSDK/workspace/ssh/src/main.lua
+-'  29  0  ~/.vim/plugin/codepad.vim
+-'  1  0  ~/.vim/plugin/codepad.vim
+-'  13  0  ~/Github/Devel/package_template/package.rockspec
+-'  1  0  ~/Github/Devel/package_template/package.rockspec
+-'  18  19  ~/.bashrc
+-'  38  0  ~/.bashrc
+-'  11  0  ~/.bash_profile
+-'  7  0  ~/.bashrc
+-'  5  15  ~/.luarocks/config.lua
+-'  4  0  ~/.luarocks/config.lua
+-'  70  0  ~/LuaSDK/lua-5.2.1/src/Makefile
+-'  1  0  ~/LuaSDK/lua-5.2.1/src/Makefile
+-'  79  0  ~/LuaSDK/lua-5.2.1/Makefile
+-'  1  0  ~/LuaSDK/lua-5.2.1/Makefile
+-'  58  0  ~/Downloads/libssh-0.5.2/include/libssh/misc.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/misc.h
+-'  52  0  ~/Downloads/libssh-0.5.2/include/libssh/packet.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/packet.h
+-'  79  0  ~/Downloads/libssh-0.5.2/include/libssh/ssh1.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/ssh1.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/ssh2.h
+-'  40  0  ~/Downloads/libssh-0.5.2/include/libssh/server.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/server.h
+-'  97  0  ~/Downloads/libssh-0.5.2/include/libssh/legacy.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/legacy.h
+-'  478  0  ~/Downloads/libssh-0.5.2/include/libssh/libssh.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/libssh.h
+-'  22  0  ~/Downloads/libssh-0.5.2/include/libssh/callbacks.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/callbacks.h
+-'  103  0  ~/Downloads/libssh-0.5.2/src/session.c
+-'  1  0  ~/Downloads/libssh-0.5.2/src/session.c
+-'  28  0  ~/Downloads/libssh-0.5.2/src/callbacks.c
+-'  1  0  ~/Downloads/libssh-0.5.2/src/callbacks.c
+-'  58  0  ~/Downloads/libssh-0.5.2/include/libssh/socket.h
+-'  1  0  ~/Downloads/libssh-0.5.2/include/libssh/socket.h
+-'  1  0  ~/Downloads/libssh-0.5.2/src/socket.c
+-'  364  0  ~/Downloads/lua-5.2.1/src/luaconf.h
+-'  345  0  ~/Downloads/lua-5.2.1/src/luaconf.h
+-'  163  0  /tmp/server.cpp
+-'  1  0  /tmp/server.cpp
+-'  493  0  ~/Downloads/openssl-1.0.1c/include/openssl/tls1.h
+-'  1  0  ~/Downloads/openssl-1.0.1c/include/openssl/tls1.h
+-'  133  0  ~/Downloads/openssl-1.0.1c/include/openssl/ui.h
+-'  1  0  ~/Downloads/openssl-1.0.1c/include/openssl/ui.h
+-'  40  0  ~/Downloads/openssl-1.0.1c/include/openssl/opensslv.h
+-'  1  0  ~/Downloads/openssl-1.0.1c/include/openssl/opensslv.h
+-'  142  0  ~/Downloads/lua-5.2.1/src/lua.h
+-'  1  0  ~/Downloads/lua-5.2.1/src/lua.h
+-'  1  0  ~/.luarocks/config.lua
+-'  86  0  ~/
+-'  10  11  ~/Downloads/lua-5.2.1/Makefile
+-'  1  0  ~/Downloads/lua-5.2.1/README
+-'  2  10  ~/Downloads/lua-5.2.1/Makefile
+-'  1  0  ~/Downloads/lua-5.2.1/Makefile
+-'  22  0  ~/Downloads/posh-1.1/src/SharedHeap.c
+-'  1  0  ~/Downloads/posh-1.1/src/SharedHeap.c
+-'  22  0  ~/Downloads/posh-1.1/src/Address.c
+-'  1  0  ~/Downloads/posh-1.1/src/Address.c
+-'  11  15  ~/.bashrc
+-'  36  0  ~/.bashrc
+-'  385  0  ~/Redis-2.6.0/redis.conf
+-'  1  0  ~/Redis-2.6.0/redis.conf
+-'  7  0  /etc/mailcap
+-'  1  0  /etc/mailcap
+-'  250  0  ~/Android-sources/system/core/nexus/WifiNetwork.cpp
+-'  1  0  ~/Android-sources/system/core/nexus/WifiNetwork.cpp
+-'  10  0  ~/Android-sources/system/core/nexus/NexusCommand.cpp
+-'  1  0  ~/Android-sources/system/core/nexus/NexusCommand.cpp
+-'  31  0  ~/Android-sources/system/core/nexus/Controller.h
+-'  1  0  ~/Android-sources/system/core/nexus/Controller.h
+-'  142  0  ~/Android-sources/development/ndk/platforms/android-9/samples/native-activity/jni/main.c
+-'  1  0  ~/Android-sources/development/ndk/platforms/android-9/samples/native-activity/jni/main.c
+-'  214  0  ~/Android-sources/packages/apps/Phone/src/com/android/phone/PhoneUtils.java
+-'  1  0  ~/Android-sources/packages/apps/Phone/src/com/android/phone/PhoneUtils.java
+-'  394  0  ~/Android-sources/device/google/accessory/demokit/firmware/demokit/demokit.pde
+-'  1  0  ~/Android-sources/device/google/accessory/demokit/firmware/demokit/demokit.pde
+-'  166  0  ~/Android-sources/device/google/accessory/arduino/AndroidAccessory/AndroidAccessory.cpp
+-'  1  0  ~/Android-sources/device/google/accessory/arduino/AndroidAccessory/AndroidAccessory.cpp
+-'  46  0  ~/Android-sources/device/google/accessory/arduino/AndroidAccessory/AndroidAccessory.h
+
+# Storia dei mark all'interno dei file (dai più recenti ai meno recenti):
+
+> ~/Downloads/nginx-1.2.4/contrib/geo2nginx.pl
+	"	40	0
+
+> ~/Downloads/libssh-0.5.2/src/socket.c
+	"	75	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/ssh2.h
+	"	33	0
+
+> ~/Documents/rfc/2223.txt
+	"	177	0
+
+> ~/sedprova.txt
+	"	3	22
+	^	3	23
+	.	3	22
+	+	1	16
+	+	3	22
+
+> ~/LuaSDK/workspace/ssh/src/main.lua
+	"	4	2
+	^	4	3
+	.	4	3
+	+	8	0
+	+	2	1
+	+	3	10
+	+	4	3
+
+> ~/LuaSDK/workspace/ssh/src/NERD_tree_1
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/LuaSDK/workspace/ssh/src/__Tag_List__
+	"	1	0
+	.	4	0
+	+	7	0
+	+	4	0
+
+> ~/.vim/README.mkd
+	"	1	0
+
+> ~/newlua/include/lua.h
+	"	41	0
+
+> ~/.vimrc
+	"	112	42
+	^	112	43
+	.	113	0
+	+	122	23
+	+	122	22
+	+	122	23
+	+	122	19
+	+	122	19
+	+	122	11
+	+	122	319
+	+	122	19
+	+	122	48
+	+	122	18
+	+	122	11
+	+	122	15
+	+	122	15
+	+	122	16
+	+	153	0
+	+	153	25
+	+	153	8
+	+	113	19
+	+	153	0
+	+	113	14
+	+	113	36
+	+	113	27
+	+	113	31
+	+	113	28
+	+	113	8
+	+	113	6
+	+	113	7
+	+	113	11
+	+	113	7
+	+	113	11
+	+	113	7
+	+	113	0
+	+	113	0
+	+	113	20
+	+	113	36
+	+	113	28
+	+	113	18
+	+	113	16
+	+	113	7
+	+	113	8
+	+	113	43
+	+	113	38
+	+	113	49
+	+	113	72
+	+	113	57
+	+	113	30
+	+	113	48
+	+	113	28
+	+	113	36
+	+	113	25
+	+	113	18
+	+	113	32
+	+	113	38
+	+	113	21
+	+	113	33
+	+	113	25
+	+	113	37
+	+	113	10
+	+	113	11
+	+	113	8
+	+	113	34
+	+	113	8
+	+	113	8
+	+	153	0
+	+	114	0
+	+	123	24
+	+	124	24
+	+	125	18
+	+	126	27
+	+	129	33
+	+	130	43
+	+	131	39
+	+	132	34
+	+	132	57
+	+	133	24
+	+	134	26
+	+	135	62
+	+	137	50
+	+	138	48
+	+	139	25
+	+	140	38
+	+	146	37
+	+	147	54
+	+	151	29
+	+	152	4
+	+	123	8
+	+	142	31
+	+	143	42
+	+	143	58
+	+	133	12
+	+	132	11
+	+	137	0
+	+	136	11
+	+	133	0
+	+	136	26
+	+	109	15
+	+	111	38
+	+	112	41
+	+	112	43
+	+	113	0
+
+> ~/.vim/plugin/codepad.vim
+	"	29	0
+
+> ~/Github/Devel/package_template/package.rockspec
+	"	13	0
+
+> ~/.bashrc
+	"	18	19
+	^	18	20
+	.	18	18
+	+	16	15
+	+	38	16
+	+	17	16
+	+	17	0
+	+	33	117
+	+	34	37
+	+	36	32
+	+	36	0
+	+	11	14
+	+	18	18
+
+> ~/.bash_profile
+	"	11	0
+	^	11	31
+	.	11	30
+	+	10	110
+	+	11	30
+
+> ~/.luarocks/config.lua
+	"	5	15
+	^	5	16
+	.	5	15
+	+	5	15
+
+> ~/LuaSDK/lua-5.2.1/src/Makefile
+	"	70	0
+
+> ~/LuaSDK/lua-5.2.1/Makefile
+	"	79	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/misc.h
+	"	58	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/auth.h
+	"	19	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/packet.h
+	"	52	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/ssh1.h
+	"	79	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/server.h
+	"	40	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/legacy.h
+	"	97	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/libssh.h
+	"	478	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/callbacks.h
+	"	22	0
+
+> ~/Downloads/libssh-0.5.2/src/session.c
+	"	103	0
+
+> ~/Downloads/libssh-0.5.2/src/callbacks.c
+	"	28	0
+
+> ~/Downloads/libssh-0.5.2/include/libssh/socket.h
+	"	58	0
+
+> ~/Downloads/lua-5.2.1/src/luaconf.h
+	"	364	0
+
+> /tmp/server.cpp
+	"	163	0
+
+> ~/Downloads/openssl-1.0.1c/include/openssl/tls1.h
+	"	493	0
+
+> ~/Downloads/openssl-1.0.1c/include/openssl/ui.h
+	"	133	0
+
+> ~/Downloads/openssl-1.0.1c/include/openssl/opensslv.h
+	"	40	0
+
+> ~/Downloads/lua-5.2.1/src/lua.h
+	"	142	0
+
+> ~/Downloads/lua-5.2.1/Makefile
+	"	10	11
+	^	7	11
+	.	7	10
+	+	7	10
+
+> ~/Downloads/lua-5.2.1/NERD_tree_1
+	"	21	8
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Downloads/lua-5.2.1/README
+	"	1	0
+
+> ~/Downloads/lua-5.2.1/doc/readme.html
+	"	2	0
+
+> ~/Downloads/lua-5.2.1/NERD_tree_2
+	"	14	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/Downloads/posh-1.1/src/SharedHeap.c
+	"	22	0
+
+> ~/Downloads/posh-1.1/src/Address.c
+	"	22	0
+
+> ~/Redis-2.6.0/redis.conf
+	"	385	0
+
+> ~/Github/ERPthon/__Tag_List__
+	"	1	0
+	.	1	0
+	+	1603	0
+	+	1602	0
+	+	1419	0
+	+	1236	0
+	+	1051	0
+	+	865	0
+	+	654	0
+	+	625	0
+	+	596	0
+	+	567	0
+	+	538	0
+	+	509	0
+	+	480	0
+	+	451	0
+	+	422	0
+	+	393	0
+	+	364	0
+	+	335	0
+	+	306	0
+	+	277	0
+	+	228	0
+	+	213	0
+	+	198	0
+	+	183	0
+	+	158	0
+	+	134	0
+	+	143	0
+	+	138	0
+	+	133	0
+	+	126	0
+	+	110	0
+	+	63	0
+	+	16	0
+	+	1	0
+
+> ~/Github/ERPthon/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /etc/mailcap
+	"	7	0
+
+> ~/Android-sources/system/core/nexus/WifiNetwork.cpp
+	"	250	0
+
+> ~/Android-sources/system/core/nexus/NexusCommand.cpp
+	"	10	0
+
+> ~/Android-sources/system/core/nexus/Controller.h
+	"	31	0
+
+> ~/Android-sources/development/ndk/platforms/android-9/samples/native-activity/jni/main.c
+	"	142	0
+
+> ~/Android-sources/packages/apps/Phone/src/com/android/phone/PhoneUtils.java
+	"	214	0
+
+> ~/Android-sources/device/google/accessory/demokit/firmware/demokit/demokit.pde
+	"	394	0
+
+> ~/Android-sources/device/google/accessory/arduino/AndroidAccessory/AndroidAccessory.cpp
+	"	166	0
+
+> ~/Android-sources/device/google/accessory/arduino/AndroidAccessory/AndroidAccessory.h
+	"	46	0
+
+> /tmp/GT-S5302_NOTICE.html
+	"	20516	0
+
+> /usr/share/zoneinfo/posix/Europe/Rome
+	"	1	0
+
+> /usr/share/zoneinfo/posix/Eire
+	"	7	0
+
+> ~/Downloads/77232fe60f/77232fe60f-code.txt
+	"	15	5
+
+> ~/Downloads/77232fe60f/77232fe60f-headers.txt
+	"	11	16
+
+> ~/Downloads/77232fe60f/77232fe60f.html
+	"	4	0
+
+> ~/Downloads/lua-5.2.1/src/lstring.c
+	"	127	0
+
+> ~/Downloads/lua-5.2.1/src/lstring.h
+	"	34	0
+
+> ~/Downloads/tornado-2.4/tornado/epoll.c
+	"	61	0
+
+> ~/Github/Python-3.2.3/Modules/_ssl.c
+	"	220	0
+
+> ~/Github/libharu/demo/image_demo.c
+	"	112	0
+
+> ~/Github/libharu/src/hpdf_string.c
+	"	178	0
+
+> ~/Github/libharu/include/hpdf.h
+	"	226	0
+
+> ~/Github/Python-3.2.3/Modules/socketmodule.h
+	"	196	0
+
+> ~/Github/Python-3.2.3/Modules/socketmodule.c
+	"	798	8
+
+> ~/Github/Python-3.2.3/Modules/selectmodule.c
+	"	181	0
+
+> ~/Github/Python-3.2.3/Modules/signalmodule.c
+	"	454	0
+
+> ~/Github/Python-3.2.3/Misc/SpecialBuilds.txt
+	"	193	0
+
+> ~/Github/Python-3.2.3/Modules/_multiprocessing/multiprocessing.h
+	"	184	0
+
+> ~/Github/Python-3.2.3/Modules/_multiprocessing/connection.h
+	"	358	0
+
+> ~/Github/Python-3.2.3/Modules/_multiprocessing/socket_connection.c
+	"	199	0
+
+> ~/Github/Python-3.2.3/Python/thread_pthread.h
+	"	298	0
+
+> ~/Github/Python-3.2.3/Include/pgen.h
+	"	13	0
+
+> ~/Github/Python-3.2.3/Include/classobject.h
+	"	43	0
+
+> ~/Github/Python-3.2.3/Python/thread_cthread.h
+	"	40	0
+
+> ~/Github/pywebsocket/.gitmodules
+	"	1	25
+	^	1	26
+	.	1	23
+	+	1	23
+
+> ~/Github/pylibwebsocket/.gitmodules
+	"	3	1
+	^	3	45
+	.	3	44
+	+	1	26
+	+	3	44
+
+> ~/Github/libwebsockets/test-server/test-server.c
+	"	371	22
+
+> ~/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/bin/.bashrc
+	"	1	0
+
+> ~/Downloads/libev-4.11/install-sh
+	"	289	0
+
+> ~/Github/ERPthon/.gitignore
+	"	48	4
+	^	48	5
+	.	48	4
+	+	41	1
+	+	45	5
+	+	33	13
+	+	34	11
+	+	48	4
+
+> ~/Downloads/coroutines/sockwrap.py
+	"	19	0
+
+> ~/Downloads/coroutines/cothread.py
+	"	43	0
+
+> ~/Downloads/coroutines/coroutine.py
+	"	14	0
+
+> ~/Downloads/coroutines/task.py
+	"	22	0
+
+> ~/Downloads/coroutines/pyos1.py
+	"	31	0
+
+> ~/Downloads/coroutines/echogood.py
+	"	28	0
+
+> ~/.local/share/gnome-shell/extensions/AdvancedVolumeMixer@harry.karvonen.gmail.com/extension.js
+	"	127	0
+
+> /etc/sensors3.conf
+	"	519	0
+
+> ~/Github/ERPthon/erpthon/db/redis/utils.py
+	"	114	34
+	^	114	35
+	.	114	28
+	+	78	71
+	+	79	30
+	+	99	0
+	+	108	0
+	+	122	0
+	+	123	30
+	+	135	0
+	+	135	53
+	+	138	0
+	+	157	0
+	+	49	0
+	+	18	0
+	+	21	0
+	+	30	0
+	+	96	8
+	+	103	57
+	+	105	45
+	+	106	35
+	+	97	0
+	+	29	70
+	+	103	59
+	+	105	49
+	+	101	54
+	+	101	54
+	+	101	53
+	+	118	0
+	+	101	57
+	+	101	45
+	+	101	65
+	+	101	41
+	+	101	37
+	+	101	41
+	+	103	8
+	+	111	94
+	+	111	126
+	+	111	217
+	+	103	23
+	+	45	22
+	+	46	22
+	+	47	22
+	+	48	22
+	+	84	16
+	+	135	12
+	+	138	16
+	+	151	11
+	+	157	20
+	+	42	25
+	+	111	135
+	+	111	94
+	+	111	110
+	+	111	137
+	+	111	153
+	+	103	13
+	+	111	160
+	+	118	21
+	+	150	71
+	+	151	13
+	+	149	0
+	+	111	132
+	+	111	150
+	+	103	0
+	+	103	34
+	+	103	31
+	+	103	41
+	+	118	22
+	+	103	30
+	+	103	50
+	+	103	27
+	+	103	23
+	+	103	27
+	+	103	34
+	+	103	34
+	+	118	21
+	+	103	46
+	+	103	24
+	+	103	20
+	+	103	24
+	+	103	8
+	+	107	7
+	+	104	0
+	+	108	8
+	+	107	37
+	+	107	37
+	+	118	28
+	+	108	0
+	+	112	7
+	+	102	26
+	+	108	0
+	+	107	0
+	+	113	22
+	+	114	42
+	+	113	22
+	+	115	19
+	+	116	15
+	+	117	19
+	+	102	26
+	+	114	30
+	+	102	0
+	+	109	39
+	+	114	28
+
+> ~/Github/ERPthon/NERD_tree_2
+	"	19	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Github/ERPthon/erpthon/db/__init__.py
+	"	60	12
+	^	56	36
+	.	56	35
+	+	25	36
+	+	25	7
+	+	25	7
+	+	25	14
+	+	25	13
+	+	25	11
+	+	25	21
+	+	25	34
+	+	25	9
+	+	25	26
+	+	25	16
+	+	25	11
+	+	25	21
+	+	25	21
+	+	25	21
+	+	25	25
+	+	25	74
+	+	25	28
+	+	25	44
+	+	25	16
+	+	25	23
+	+	25	77
+	+	25	29
+	+	25	58
+	+	25	14
+	+	25	27
+	+	25	9
+	+	25	76
+	+	25	26
+	+	25	13
+	+	25	11
+	+	25	30
+	+	25	69
+	+	25	11
+	+	25	27
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	23
+	+	25	25
+	+	25	11
+	+	25	15
+	+	25	22
+	+	25	28
+	+	23	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	61	0
+	+	61	0
+	+	61	0
+	+	61	0
+	+	61	0
+	+	48	41
+	+	43	0
+	+	42	0
+	+	26	0
+	+	25	0
+	+	48	32
+	+	61	0
+	+	31	53
+	+	17	0
+	+	20	0
+	+	17	0
+	+	17	0
+	+	53	27
+	+	50	29
+	+	55	77
+	+	56	74
+	+	53	45
+	+	56	61
+	+	57	0
+	+	60	37
+	+	51	29
+	+	57	28
+	+	54	37
+	+	55	11
+	+	56	61
+	+	56	0
+	+	56	42
+	+	57	33
+	+	59	38
+	+	60	33
+	+	54	14
+	+	61	0
+	+	17	14
+	+	18	14
+	+	17	21
+	+	18	4
+	+	22	47
+	+	23	0
+	+	19	58
+	+	53	29
+	+	62	0
+	+	53	29
+	+	55	36
+	+	56	20
+	+	62	0
+	+	56	35
+
+> ~/Github/ERPthon/erpthon/db/redis/connection.py
+	"	124	27
+	^	115	50
+	.	115	46
+	+	22	0
+	+	47	0
+	+	16	0
+	+	16	0
+	+	126	0
+	+	126	0
+	+	126	0
+	+	126	0
+	+	115	0
+	+	114	78
+	+	126	0
+	+	81	0
+	+	115	46
+
+> ~/Github/ERPthon/erpthon/config/global_settings.py
+	"	44	64
+	.	45	0
+	+	20	14
+	+	21	39
+	+	20	14
+	+	21	138
+	+	21	101
+	+	21	129
+	+	21	175
+	+	21	221
+	+	46	0
+	+	46	0
+	+	44	65
+	+	21	224
+	+	44	64
+	+	21	221
+	+	21	225
+	+	23	0
+	+	20	48
+	+	21	93
+	+	21	134
+	+	21	174
+	+	21	71
+	+	21	110
+	+	21	157
+	+	21	203
+	+	20	52
+	+	21	23
+	+	21	51
+	+	21	59
+	+	21	70
+	+	21	42
+	+	21	53
+	+	21	24
+	+	21	78
+	+	21	17
+	+	23	0
+	+	20	14
+	+	20	14
+	+	21	37
+	+	20	21
+	+	21	39
+	+	22	34
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	46	0
+	+	45	0
+
+> ~/NERD_tree_3
+	"	26	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
